@@ -1,0 +1,202 @@
+/* body{
+  background-color: #f9dfdc;
+} */
+body p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+h1 h2 h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+/* .container-fluid{
+  padding: 2% 10%;
+} */
+.navbar{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: 300;
+  font-size: 34px;
+  color: white;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  padding-right: 30%;
+}
+.logo{
+    max-height: 250px;
+    padding: 65%;
+    z-index: 100;
+    position: fixed;
+    left: 30;
+}
+
+  input[type='radio'] {
+      height: 15px;
+      width: 15px;
+      vertical-align: left;
+    }
+
+
+
+
+.site-logo {
+  min-height: 88px;
+  position:absolute;
+  top:0.1;
+  z-index: 2;
+  left: 50px;
+  /* width: calc(100% - 1170px); */
+  bottom: 11;
+  width: 240px;
+  height: auto;
+}
+img {
+       max-width: 100%;
+       height: auto;
+     }
+.site-logo .navbar-brand {
+  /* margin-left: 0 !important; */
+  float: right;
+}
+#home{
+  z-index: 2;
+}
+.carousel-indicators li{
+
+  border-radius: 100%;
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-left: 10px;
+
+
+
+}
+.carousel-indicators li.active{
+  background-color: black;
+  width: 14px;
+  height: 14px;
+  margin-left: 10px;
+}
+
+.carousel-inner{
+  width: 100%;
+  height: 100%;
+}
+.bannerCol{
+  margin: 5px;
+
+}
+
+#about{
+  margin-top: 3%;
+}
+.about-text{
+  padding-top: 1%;
+  padding-left: 3%;
+}
+#Mission{
+  color: #ffff;
+  padding: 2% 2%;
+  background-color: #33668a;
+  position: relative;
+}
+
+.picture-buttons{
+  background-color: inherit;
+  border: 0px;
+  color: black;
+  margin-bottom: 1rem;
+  width: 100px;
+  height: auto;
+
+}
+
+.picture-buttons:hover{
+  color: white;
+}
+
+
+
+#objectives{
+  background-color: #eeeeee;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-bottom: 1%;
+  position: relative;
+  margin-bottom: 2%;
+}
+.object-sub{
+  color: #33668a;
+  font-weight: 400;
+}
+.col-grey{
+  background-color: #eeeeee;
+}
+
+/* Membership */
+/* Style the form */
+#regForm {
+  background-color: #ffffff;
+
+
+  /* width: 50%;
+  min-width: 100px; */
+}
+
+#male{
+  margin-left: 0;
+  margin-right: 50px;
+}
+.navbar{
+  background-color: #33668a;
+}
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+.strip-cust{
+  width: 800;
+  max-width: 800;
+}
+
+/* Hide all steps by default: */
+.tab {
+
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #33668a;
+}
+footer{
+  background-color: #33668a;
+}
